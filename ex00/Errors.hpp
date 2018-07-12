@@ -13,7 +13,7 @@ public:/* dream0630 */
   std::string const &getComponent() const;/* dream0630 */
 /* dream0630 */
   virtual ~NasaError() throw();/* dream0630 */
-  virtual const char*	what();/* dream0630 */
+  const char*	what() const noexcept;/* dream0630 */
   /* dream0630 */
 private:/* dream0630 */
   /* dream0630 */

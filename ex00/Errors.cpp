@@ -9,7 +9,7 @@ NasaError::~NasaError() throw()/* dream0630 */
 {/* dream0630 */
 }/* dream0630 */
 /* dream0630 */
-const char*	NasaError::what()/* dream0630 */
+const char*	NasaError::what() const noexcept/* dream0630 */
 {/* dream0630 */
   return this->_message.c_str();/* dream0630 */
 }/* dream0630 */
