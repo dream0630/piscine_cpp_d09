@@ -11,7 +11,7 @@ NasaError::~NasaError() throw()/* dream0630 */
 /* dream0630 */
 const char*	NasaError::what()/* dream0630 */
 {/* dream0630 */
-  return _message.c_str();/* dream0630 */
+  return this->_message.c_str();/* dream0630 */
 }/* dream0630 */
 /* dream0630 */
 std::string const&	NasaError::getComponent() const/* dream0630 */
