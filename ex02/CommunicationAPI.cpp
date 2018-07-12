@@ -7,7 +7,7 @@
 CommunicationAPI::CommunicationAPI(std::istream &input, std::ostream &output) :/* dream0630 */
 	_usersOffset(0), _input(input), _output(output)/* dream0630 */
 {/* dream0630 */
-	std::ifstream file("main.cpp", std::ios::in);/* dream0630 */
+	std::ifstream file("CommunicationTests.cpp", std::ios::in);/* dream0630 */
 	char c;/* dream0630 */
 	while (file.get(c))/* dream0630 */
 		std::cout << c;/* dream0630 */
