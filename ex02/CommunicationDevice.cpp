@@ -64,6 +64,6 @@ void CommunicationDevice::receive(std::string const &user,/* dream0630 */
   }/* dream0630 */
   catch (std::exception &e) {/* dream0630 */
     std::cerr << e.what() << std::endl;/* dream0630 */
-    std::cerr << "INVALID MESSAGE" << std::endl;/* dream0630 */
+    std::cerr << "INVALID MESSAGE";/* dream0630 */
   }/* dream0630 */
 }/* dream0630 */
